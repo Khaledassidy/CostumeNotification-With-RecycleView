@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         //ta3amoul ma3 l views metl textview,button..etc ta3amoul ma3a mn de5el notification  3an tare2 remote views ma byenfa3 ta3mela inflate mobasharatan lesh l2no l notification ma7touta barat l application ta3elak le byet3mel ma3 notification mesh application ta3elak application b2lb system
         //fa ba3mel method btrje3 remoteviews object howe 3ebra 3an class bemasel l 3anaser le badna net3emal ma3a bel notification ya3ne aye 3osnour badak defo b tasmem 5as b notification byet7awal la7alo la object remote views 2aw layout kola lama ta3mela inflate 3ala l notification btet7ewal la object mn no3 remote views l2no mn barat l application ta3elak jowet l application ta3elak btet7wal la view l inflate ama barat application ta3elak byet7awal la remoteviews l2no btem ta7akoum feha remotly
         //getcostumedesign l method l 3am 2a3mela 3ebara 3an method btest2bel object l user w bt3belak bayneto b2lb costume design w btrj3lk yeh ya3ne metl l getview le kona nest3mela bel listview
-        builder.setCustomContentView(getcostumDesign(user));
+        builder.setContent(getcostumDesign(user));
         builder.setStyle(new NotificationCompat.DecoratedCustomViewStyle());
         builder.setSmallIcon(R.drawable.baseline_supervised_user_circle_24);
         //hala2 3shen e3roud notification bade estd3e l mouder 2aw l application le bt3roud l ntifications w t2olo 5od hay notification w 3rouda
